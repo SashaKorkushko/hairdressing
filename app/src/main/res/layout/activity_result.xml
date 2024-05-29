@@ -1,0 +1,86 @@
+<!-- activity_result.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/light_pink">
+
+    <TextView
+        android:id="@+id/order_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for your order!"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:fontFamily="@font/body_grotesque" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The total price of services becomes:"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/selected_master"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Master:"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/selected_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/close_app_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Close app"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:fontFamily="@font/body_grotesque"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/home_screen_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="HomeScreen"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:fontFamily="@font/body_grotesque"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<!-- box_background_selected.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#eb838e"/> <!-- Светло-розовый цвет фона -->
+    <corners android:radius="8dp"/> <!-- Скругленные углы -->
+</shape>
